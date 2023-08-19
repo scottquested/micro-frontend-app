@@ -1,0 +1,9 @@
+{
+  "name": "mfe_app_1",
+  "exposes": {
+    "./App1": "./src/pages/App1/index"
+  },
+  "remotes": {
+    "mfe_components": "mfe_components@http://localhost:3001/remote.js"
+  }
+}
